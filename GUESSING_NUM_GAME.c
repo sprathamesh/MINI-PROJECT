@@ -8,7 +8,7 @@
 #include<time.h>                            // To use time(0) function
 int main()
 {
-	int number, guess, nguesses=1;      // guess is number that is generated &nguesses is used for no of time you guessed the number while playing
+	int number, guess, nguesses=1;      // guess is number that is generated & nguesses is used for no of time you guessed the number while playing
 	srand(time(0));                     //random numbers for every output
 	number = rand()%100 + 1;            //generate random number between 1 to 100 if we take 200 instead of 100 number will generate number between 1 to 200.
     //printf("the number is %d",number);
