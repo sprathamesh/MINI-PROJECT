@@ -3,8 +3,8 @@
 //this work as any random number will divide by 100 the answer will be in 0 to 100 
 
 #include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
+#include<stdlib.h>                          // To use rand() function
+#include<time.h>                            // To use time(0) function
 int main()
 {
 	int number, guess, nguesses=1;
