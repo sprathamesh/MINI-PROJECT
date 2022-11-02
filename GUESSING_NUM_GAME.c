@@ -9,7 +9,7 @@ int main()
 {
 	int number, guess, nguesses=1;
 	srand(time(0));                     //random numbers for every output
-	number = rand()%100 + 1;            //generate random number between 1 to 100
+	number = rand()%100 + 1;            //generate random number between 1 to 100 if we take 200 instead of 100 number will generate number between 1 to 200.
     //printf("the number is %d",number);
 	//keep running the loop until it guesed
 	do
